@@ -1,0 +1,36 @@
+{
+  "name": "@jsonfirst/implants",
+  "version": "1.0.0",
+  "description": "Official JSONFIRST Protocol implants — inject structured governance into any LLM (ChatGPT, Claude, Gemini, Llama, Mistral)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "implants/",
+    "README.md"
+  ],
+  "keywords": [
+    "jsonfirst",
+    "llm",
+    "ai",
+    "governance",
+    "implant",
+    "system-prompt",
+    "chatgpt",
+    "claude",
+    "gemini",
+    "llama",
+    "mistral",
+    "anti-hallucination",
+    "prompt-engineering"
+  ],
+  "author": "JSONFIRST <contact@jsonfirst.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsonfirst/implants"
+  },
+  "homepage": "https://jsonfirst.com",
+  "engines": {
+    "node": ">=14"
+  }
+}
