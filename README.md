@@ -1,6 +1,6 @@
 # @jsonfirst/implants
 
-Official [JSONFIRST Protocol](https://jsonfirst.com) implants — inject structured governance into any LLM.
+**One line of code to make any LLM structured, reliable, and hallucination-resistant — works with ChatGPT, Claude, Gemini, Llama and Mistral.**
 
 ## Install
 
@@ -37,6 +37,9 @@ implants.getAll();
 | `gemini` | Gemini | Gems → Create a Gem → Instructions |
 | `llama` | Llama (Ollama / LM Studio) | `system_prompt` in API config |
 | `mistral` | Mistral / Le Chat | System prompt in Le Chat or Mistral API |
+| `chat` | All LLMs | Paste directly at the start of any conversation |
+
+> No configuration needed — paste any implant at the start of your conversation for instant governance.
 
 ## What it activates
 
