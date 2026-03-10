@@ -29,15 +29,16 @@ implants.getAll();
 
 ## Available Implants
 
-| Name | Target | Where to inject |
-|------|--------|-----------------|
-| `universal` | All LLMs | Custom Instructions, System Prompt, or start of conversation |
-| `chatgpt` | ChatGPT | Settings → Personalization → Custom Instructions |
-| `claude` | Claude | Projects → New Project → Set Instructions |
-| `gemini` | Gemini | Gems → Create a Gem → Instructions |
-| `llama` | Llama (Ollama / LM Studio) | `system_prompt` in API config |
-| `mistral` | Mistral / Le Chat | System prompt in Le Chat or Mistral API |
-| `chat` | All LLMs | Paste directly at the start of any conversation — no configuration needed |
+| Name | Target | Chat | API |
+|------|--------|------|-----|
+| `universal` | All LLMs | ✓ Paste at start of conversation | Custom Instructions or System Prompt |
+| `chatgpt` | ChatGPT | ✓ Paste at start of conversation | Settings → Personalization → Custom Instructions |
+| `claude` | Claude | ✓ Paste at start of conversation | Projects → New Project → Set Instructions |
+| `gemini` | Gemini | ✓ Paste at start of conversation | Gems → Create a Gem → Instructions |
+| `llama` | Llama / Ollama | ✓ Paste at start of conversation | `system_prompt` in API config |
+| `mistral` | Mistral / Le Chat | ✓ Paste at start of conversation | System prompt in Le Chat or Mistral API |
+
+> **No configuration needed.** For instant use, paste any implant directly at the start of your conversation. For persistent governance across all sessions, use the API column to inject at the system level.
 
 ## What it activates
 
